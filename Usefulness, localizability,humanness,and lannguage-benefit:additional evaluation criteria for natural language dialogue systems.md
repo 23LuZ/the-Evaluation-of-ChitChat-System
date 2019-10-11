@@ -87,6 +87,34 @@ YPA系统返回地址，如果未找到地址，则开始对话，系统要求�
 对这四种原型产生的4个回复进行评价，结果如下图：
 ![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Matching%20types%20in%20the%20Afrikaans%20Prototype.PNG?raw=true)
 
+## 人性评价（Humanness evaluation） ##
+对话系统的人性方面衡量的方式为测试对话系统欺骗用户使其相信自己正在与真实的人而不是虚拟的人交流的能力。
 
+Colby使用这个策略测试PARRY，精神科医生对PARRY和三个患有偏执狂的病人进行询问，无法区分PARRY和病人。
 
+在Loebner prize竞赛中也采取了这个策略，用户与参赛聊天机器人交谈10分钟，如果在这10分钟之内用户无法确定交谈对象是人类还是机器人，那么聊天机器人获胜。
 
+但是10分钟很短不足以判断出聊天机器人的人性，而且评价很主观，之依赖参与测试的用户。因此，提出一种新的比较方式。
+分别从词汇（lexical）、词性（part-of-speech）和语义（sematic）三个层面比较聊天机器人的回复和人类的回复。
+
+## 语言效益评估（language benefit evaluation） ##
+通过将自然语言对话系统与基于关键字的接口系统相比较，可获得语言效益评价。
+
+Happy Assistant是“基于自然语言对话框的导航系统，可帮助用户访问电子商务网站以查找有关产品和服务的相关信息”。
+系统的可用性（usability）通过评估系统在易用性，系统流程，系统响应的有效性和用户词汇方面是否满足用户期望得到的。
+
+相比于通过搜索引擎获得信息，人们更喜爱通过聊天机器人获得信息。
+
+## 结论 ##
+不同的评价技术：
+- 黑盒 black box
+- 玻璃盒 glass box
+- 比较 comparative
+- 定量 quantitative
+- 定性 qualitative
+
+四个经常被忽略的评价指标：
+- 有用性 usefulness
+- 可本地化 localizability
+- 人性或自然性 humanness
+- 语言效益 language benefit
