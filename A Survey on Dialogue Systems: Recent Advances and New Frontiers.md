@@ -9,6 +9,11 @@
 值得注意的是虽然词重叠和词向量指标已被广泛应用于非任务型对话系统的评价，但是研究表明这些指标与人类的判断或者具有很弱的相关性或者没有相关性。
 此外，词向量指标能够有效的将基线模型与最先进的模型区分开。
 
+未提到人工评价的方法，以及人工评价的规范化等问题（评价人员之间的一致性）
+- 两两比较
+- 根据打分标准打分
+
+
 >可继续参考的文献  
 >
 >[1] P.-H. Su, D. Vandyke, M. Gasic, D. Kim, N. Mrksic, T.-H. Wen, and S. Young. Learning from real users: Rating dialogue success with neural networks for rein- forcement learning in spoken dialogue systems. arXiv preprint arXiv:1508.03386, 2015.
