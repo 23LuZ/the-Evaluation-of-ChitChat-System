@@ -36,15 +36,21 @@
 
 可以扩展特征空间并组合成为更加复杂的分类器，如好友关注者比率，推文，访问的持续时间等特征，这将提高分类器的准确率，从伦理的角度来看，创建更复杂的分类器是进入‘魔鬼三角’的第一步。
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/The%20devil%E2%80%99s%20triangle.PNG?raw=true)
+
 #### 处理透明度  Dealing with transparency
 
 如果将机器人检测算法公开，那么机器人将进行升级改造，检测算法将失效。道德的话来说，这种情况下的（太多）透明度会增加社交网络中的不确定性以及操纵和欺诈的可能性，并将其提升到一个全新的水平，因为产生了新一代的新机器人（称为2.0）
 
 如果开发了新的分类器来识别新的bot-2.0代，则它必须包括所有相关功能，以将三个用户类别（人类，bots-1.0和bots-2.0）分开，而不是两个。机器人内部的较大差异将对我们的预测造成另一个威胁：对操纵的鲁棒性逐渐减弱。
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Increased%20transparency%20will%20cause%20continuous%20bot%20variations%20and%20a%20decrease%20in%20detection%20robustness.PNG?raw=true)
+
 #### 差异与鲁棒性 Variance vs. robustness 
 
 针对2.0机器人的出现，可以整合2.0机器人的特征到分类器，提高分类器的精度，或者针对整个机器人群体的普通特征重新训练一个通用分类器。
+
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Increase%20of%20the%20features%20range%20will%20enhance%20the%20accuracy%20and%20decrease%20the%20transparency.PNG?raw=true)
 
 #### 总结 Conclusion
 
