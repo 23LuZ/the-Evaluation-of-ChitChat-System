@@ -38,6 +38,8 @@
 
 一个功能$k\in K$, 其类别为$c \in C$。本文所使用的功能和类别所下图所示：
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Summary%20of%20the%20example%20taxonomy%20of%20capabilities%20and%20capability%20categories.PNG?raw=true)
+
 能力是行为的一般类别，需要进一步指定才能生成单个测试问题。 测试域由一组参数$\Theta$和一个函数组成:$Param:\ K\times\Theta\ \rightarrow \{T,F\}$ ,只有能力接受域参数时，返回True。本文中，$\theta\in \Theta$ 是简单的一个或两个单词形式的物理对象或动作动词。
 
 #### 实例化功能分类和域 Instantiating a Capability Taxonomy and Domain
@@ -48,11 +50,15 @@
 
 评估的范围比较小，选取了作者比较感兴趣的范围。
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/The%20domain%20of%20evaluation%20used%20within%20this%20paper.PNG?raw=true)
+
 #### 启发试验 Elicitation Trials
 
 人类测试人员对系统进行测试以评价系统是否具有需要的能力。人类测试人员使用一种能够测试系统并将结果参数化的工具进行系统评价。测试人员根据工具提供的示例提出问题。
 
 试验过程如下：通过评价工具选定‘Class Search’能力，物理名词‘coffee shop’，那么对应‘Class Search’能力的示例问题展示出来，测试人员根据示例问题结合物理名词‘coffee shop’提出新的问题，如下图所示，结果被评定为失败。
+
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/coffee%20shop%20example.PNG?raw=true)
 
 每个系统 $s$ 的试验 $t$ 结果可表示为 $t=(e[t],k[t],\theta[t],o[t])$,其中，$e[t]$ 代表测试者，$k[t]$ 代表测试的能力， $\theta[t]$  代表能力对应的参数，$o[t]$ 代表结果${0,1}$
 
@@ -121,7 +127,9 @@ $$
 
 实验结果如下图所示：
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/breadth%20and%20flexibility.PNG?raw=true)
 
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/performance.PNG?raw=true)
 
 ### 先前工作 Prior Work
 
