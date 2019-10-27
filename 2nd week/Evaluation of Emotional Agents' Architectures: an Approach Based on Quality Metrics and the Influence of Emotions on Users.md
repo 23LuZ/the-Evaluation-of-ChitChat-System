@@ -1,4 +1,7 @@
 ### Evaluation of Emotional Agents' Architectures: an Approach Based on Quality Metrics and the Influence of Emotions on Users
+- 满意 Satisfaction - 情感 Affect
+读懂并回应参与者的情绪 Read and respond to moods of human participant
+
 #### 摘要 Abstract
 在开发的早期阶段，需要确定系统的质量。代理（agents）的体系结构（architectures）也是系统的一部分，因此也需要对其质量进行评估。
 
