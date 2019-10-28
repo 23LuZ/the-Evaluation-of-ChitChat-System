@@ -46,7 +46,16 @@ Artstein对交互式软件质量的评估分为两个不同的类别，即“务
 
 GQM模型是如下图所示的自上而下的层次模型，顶层从目标（指定测量目的，要测量的对象，要测量的问题以及采取测量的观点）开始。
 
-![]()
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/GQM%20Model.PNG?raw=true)
 
 将目标细化为几个问题。 每个问题都是一个度量标准，其中一些是客观的，一些是主观的。 
 为了回答同一目标下的不同问题，可以使用相同的度量标准
+
+这个新的CA评估框架被用于评估两个新型对话代理系统UMAIR(客户服务 customer service)和Abdullah CITS（online tutor）.
+
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/UMAIR%20GQM%20Diagram2.PNG?raw=true)
+
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Abdullah%20CITS%20GQM%20Diagram2.PNG?raw=true)
+
+#### 讨论与总结 Discussion and Conclusion 
+使用GQM方法可以根据不同对话代理的应用目标选择不同的度量指标，标准化整个流程。
