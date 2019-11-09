@@ -17,10 +17,15 @@ Vaild/Acceptable/Invaild --》 1.0，0.5.0.0
 - 特征提取 Feature extraction
   Bag-of-words 词袋模型 + SVM/RF + binary cross-entropy
   word embedding + NN + mean squared error + The epoch with the best F1-score or Pearson correlation coefficient on the development set
-  is selected as the final model
+  is selected as the final model  
+  ![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/The%20convolutional%20neural%20network%20(CNN)%20architecture.PNG?raw=true)
 - 学习 Learning
 
 ### 实验
 #### 评价指标
 - 二分类问题：F1-score,accuracy
 - regression Pearson's correlation
+
+结果如下图（ganjuebuhao）
+
+![](https://github.com/23LuZ/the-Evaluation-of-ChitChat-System/blob/master/pics/Result.PNG?raw=true)
